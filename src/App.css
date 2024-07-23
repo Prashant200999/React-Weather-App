@@ -1,0 +1,56 @@
+.bg-one{
+    background-color:#80C2AF ;
+}
+.bg-two{
+background-color:#A0DDE6 ;
+}
+.bg-three{
+    background-color:#3cb5c7 ;
+    }
+.bg-three:hover{
+    background-color:#30909f ;
+    color:white;
+}
+.fontShadow1{
+    text-shadow: 3px 3px black;
+   
+}
+.fontShadow2{
+    text-shadow: 3px 3px rgb(197, 194, 194);
+}
+.mxWidth{
+    max-width: 700px;
+}
+.forecastCardHeight{
+    min-height: 15rem;
+    
+}
+
+
+@media(max-width: 500px){
+    .fontSize1{
+        font-size: 24px;
+    }
+
+    .fontSize2{
+        font-size: 16px;
+    }
+    .imgHeight{
+        height:350px ;
+    }
+    .fontShadow{
+        text-shadow: 2px 2px black;
+    }
+
+  
+}
+
+
+
+.cardShadow{
+    box-shadow: 1px 2px 8px 1px #888888;
+}
+.cardShadow:hover{
+    box-shadow: 1px 2px 8px 1px black;
+    cursor: pointer;
+}
